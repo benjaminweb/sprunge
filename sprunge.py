@@ -41,7 +41,7 @@ DESCRIPTION
     use <a href='%s'>this form</a> to paste from a browser
 
 EXAMPLES
-    ~$ cat bin/ching | curl -F '%s=&lt;-' %s
+    ~$ curl -F '%s=&lt;-' %s '< /path/to/file'
        %s/VZiY
     ~$ firefox %s/VZiY?py#n-7
 
